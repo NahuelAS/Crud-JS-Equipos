@@ -2,10 +2,12 @@
 {"id":2072,"name":"England"},
 "activeCompetitions":[
     {"id":2021,"area":
-    {"id":2072,"name":"England"},
+        {"id":2072,"name":"England"},
     "name":"Premier League","code":"PL","plan":"TIER_ONE","lastUpdated":"2020-05-16T00:00:04Z"},
-    {"id":2146,"area":{"id":2077,"name":"Europe"},"name":"UEFA Europa League","code":"EL","plan":"TIER_TWO","lastUpdated":"2020-03-18T00:00:02Z"},
-    {"id":2055,"area":{"id":2072,"name":"England"},"name":"FA Cup","code":"FAC","plan":"TIER_TWO","lastUpdated":"2020-03-21T00:00:06Z"}
+    {"id":2146,"area":
+        {"id":2077,"name":"Europe"},"name":"UEFA Europa League","code":"EL","plan":"TIER_TWO","lastUpdated":"2020-03-18T00:00:02Z"},
+    {"id":2055,"area":
+        {"id":2072,"name":"England"},"name":"FA Cup","code":"FAC","plan":"TIER_TWO","lastUpdated":"2020-03-21T00:00:06Z"}
     ],
     "name":"Arsenal FC",
     "shortName":"Arsenal",

@@ -21,9 +21,13 @@
   "homepage": "https://github.com/NahuelAS/Crud-JS-Equipos#readme",
   "dependencies": {
     "bootstrap": "^5.3.3",
+    "font-awesome": "^4.7.0",
     "http-server": "^14.1.1"
   },
   "devDependencies": {
+    "@babel/cli": "^7.23.9",
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
     "cypress": "^13.6.6"
   }
 }
