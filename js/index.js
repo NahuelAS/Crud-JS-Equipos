@@ -1,3 +1,5 @@
+// import { filtrarEquipos } from "./busqueda.js";
+
 const albunContainer = document.querySelector('.album .container');
 
 fetch('./data/equipos.json')
@@ -21,8 +23,8 @@ function mostrarEquipos(data){
                 <p class="card-text"><strong>${equipo.name}</strong> equipo de <strong>${equipo.area.name}</strong>, su estadio es <strong>${equipo.venue}</strong> que se encuentra en <strong>${equipo.address}</strong>, sus colores principales son <strong>${equipo.clubColors}</strong> y fue fundado en <strong>${equipo.founded}</strong>.</p>
                 <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                    <button type="button" class="btn btn-sm btn-outline-secondary"><a href="${equipo.website}">Sitio Web</a></button>
-                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
+                    <button type="button" class="btn btn-sm btn-primary btn-outline-secondary"><a href="${equipo.website}">Sitio Web</a></button>
+                    <button type="button" class="btn btn-sm btn-primary btn-outline-secondary"><a href="${equipo.tla}">Ver Equipo</a></button>
                 </div>
                 </div>
             </div>
