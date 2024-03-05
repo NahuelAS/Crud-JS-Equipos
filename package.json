@@ -1,0 +1,29 @@
+{
+  "name": "crud-js-equipos",
+  "version": "1.0.0",
+  "description": "Crud de Equipos",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server -c-1",
+    "test:cypress": "cypress run",
+    "test:cypress:dev": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NahuelAS/Crud-JS-Equipos.git"
+  },
+  "author": "Nahuel Stella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NahuelAS/Crud-JS-Equipos/issues"
+  },
+  "homepage": "https://github.com/NahuelAS/Crud-JS-Equipos#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "http-server": "^14.1.1"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.6"
+  }
+}
