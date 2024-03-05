@@ -24,7 +24,7 @@ function mostrarEquipos(data){
                 <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
                     <button type="button" class="btn btn-sm btn-primary btn-outline-secondary"><a href="${equipo.website}"><strong>Sitio Web</strong></a></button>
-                    <button type="button" class="btn btn-sm btn-primary btn-outline-secondary" id="btnMostrarEquipo" onclick="redireccionarVistaEquipo()"><strong>Ver Equipo</strong></button>
+                    <button type="button" class="btn btn-sm btn-primary btn-outline-secondary"><strong>Ver Equipo</strong></button>
                 </div>
                 </div>
             </div>
@@ -36,10 +36,4 @@ function mostrarEquipos(data){
 
 }
 
-
-
-function redireccionarVistaEquipo() {
-    // const tla = document.getElementById('btnMostrarEquipo').dataset.tla;
-    window.location.href = 'vista_equipo.html';
-}
 
